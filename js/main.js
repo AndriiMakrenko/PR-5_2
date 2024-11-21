@@ -53,9 +53,9 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
 
-      if (passwordInput.value.length < 6 || passwordInput.value.length > 20) {
+      if (passwordInput.value.length < 8 || passwordInput.value.length > 20) {
           passwordInput.style.borderColor = 'red'; 
-          passwordInput.setCustomValidity('Пароль повинен бути від 6 до 20 символів.');
+          passwordInput.setCustomValidity('Пароль повинен бути від 8 до 20 символів.');
           hasError = true;
       } else {
           passwordInput.style.borderColor = ''; 
